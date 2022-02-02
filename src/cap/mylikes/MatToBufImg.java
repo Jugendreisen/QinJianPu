@@ -1,12 +1,14 @@
 package cap.mylikes;
 
-import java.awt.image.BufferedImage;  
-import java.io.ByteArrayInputStream;  
-import java.io.InputStream;  
-import javax.imageio.ImageIO;  
-import org.opencv.core.Mat;  
-import org.opencv.core.MatOfByte;  
-import org.opencv.imgcodecs.Imgcodecs;  
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfByte;
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.*;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
   
   
 public class MatToBufImg {  
